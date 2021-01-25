@@ -30,6 +30,7 @@ class App extends Component {
       <header className="App-header">
         {console.log("results", this.state.arrayOfContacts)}
         <div>
+          <h1>Rolodex</h1>
         <ol>{this.state.arrayOfContacts.map((contact, index) => {
           return (
             
