@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContactCard.css';
 
 class ContactCard extends React.Component {
     constructor(props) {
@@ -32,8 +33,8 @@ class ContactCard extends React.Component {
                     <li style={{ margin: "0px"}}>
                         <img src={this.props.picture} alt={"Person"}></img>
                         <h2>{this.props.firstName} {this.props.lastName}</h2>
-                        <h4>Phone: {this.props.phone}</h4>
-                            <h4>Cell: {this.props.cell}</h4>
+                        <h4>Phone: {this.props.phone}</h4> 
+                        <h4>Cell: {this.props.cell}</h4>
                           <h4>{this.props.email}</h4>
                         <h5>{this.props.city}, {this.props.state}, {this.props.country}</h5>
                     </li>

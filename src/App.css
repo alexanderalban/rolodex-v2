@@ -14,7 +14,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./images/pawel-czerwinski--0xCCPIbl3M-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
